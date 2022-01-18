@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mysite</title>
+  <script src="https://kit.fontawesome.com/e28ccd4840.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" href="logovecwhite.svg">
+</head>
+
+<body>
+  <header id='home'>
+    <nav id='nav'>
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="#home">
+            <svg class='logoname' xmlns="http://www.w3.org/2000/svg" width=5vw height=5vh viewBox="0 0 246 197"
+              fill="none">
+              <path
+                d="M47.5793 33.9375C124.402 -47.0116 169.336 61.5098 37.4362 119.937C27.2537 267.876 79.7708 143.219 92.987 119.937M47.5793 33.9375C45.0115 36.6432 42.408 39.5606 39.7744 42.6986C43.1575 37.6538 45.7193 34.8601 47.5793 33.9375ZM47.5793 33.9375C64.5454 25.5211 23.1134 172.78 13.8984 187.198C3.67331 203.196 -0.708916 174.468 17.2373 159.674M212.069 50.2717C257.142 -86.3411 236.73 123.301 234.264 191.951M145.153 192C164.835 126.988 175.226 84.7708 179.387 58.765M179.387 58.765C189.184 -2.45497 164.459 26.1676 145.153 58.765M179.387 58.765C228.942 -79.7243 211.738 89.8845 196.941 192"
+                stroke-width="9" />
+            </svg>
+          </a>
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="links-container">
+          <ul class="links">
+            <li>
+              <a href="#about" class="scroll-link">about</a>
+            </li>
+            <li>
+              <a href="#contact" class="scroll-link">contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class='type-container'>
+
+      <h1 class='type'>Hi, I'm Robbie</h1>
+    </div>
+
+    <div class="banner">
+
+    </div>
+  </header>
+  <section id='about' class='section'>
+    <div class="title">
+      <h2> <span>About</span></h2>
+
+      <div class='face-container'>
+        <img class='face' src="./facepic.jpg" alt="my face">
+
+      </div>
+      <p>
+        Hi, I'm Robbie Milliken. <br><br> I'm currently making a career change to software/web development. I have
+        experience
+        in
+        corporate accounting where I learned to make custom macros in VBA. I've taken two intro to programming
+        courses from the University of Helsinki, which taught me the fundamentals of Object Oriented Programming with
+        Java. <br><br> I'm currently learning front-end, ReactJS, and the MERN stack.
+        <br><br>
+        I'm open to any role that provides me with experience in software development.
+      </p>
+    </div>
+  </section>
+  <div class='hire-me'>
+    <h1 class='hire-me-title'>Would you like to hire me?</h1>
+    <div class='box-container'>
+      <div class='checkboxes'>
+        <div class='yes'>
+          <input type="checkbox" name="yes" id="yes" onclick="showHappy()">
+          <label for="yes">Of course!</label>
+        </div>
+        <div class='no'>
+          <input type="checkbox" name="no" id="no" onclick="showUpsd()">
+          <label for="no">Not yet
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="emoji happy">😀</div>
+    <div class="emoji upsd">🙃</div>
+
+  </div>
+  <section>
+  </section>
+  <section id='contact' class='section'>
+    <div class="title">
+      <div id="tsParticles" style='width:95vw; height:100vh; position:absolute; z-index: -1;'></div>
+      <script src="node_modules\tsparticles\tsparticles.min.js"></script>
+      <h2><span>Contact</span><br></h2><br>
+    </div>
+    <div>
+      <p>
+        <a href="https://github.com/millikr2" target='_blank'> <i class="fab fa-github"></i>
+        </a>
+      </p>
+    </div>
+    <div>
+      <p>
+        <a href="https://www.linkedin.com/in/millikr2/" target="_blank"> <i class="fab fa-linkedin"></i>
+        </a>
+      </p>
+    </div>
+    </div>
+  </section>
+  <footer class='section'>
+    <p>
+      <a class='bg-credit' target="_blank" href="https://unsplash.com/photos/WiONHd_zYI4">Like the first photo?</a>
+    </p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
